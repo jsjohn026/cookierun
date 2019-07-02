@@ -1,11 +1,3 @@
-jump through hoops to get:
-cookies for fuel
-coins for treasure
-various levels
-always jumping (like mario bro's)
-jump higher than normal
-jump through hoops for more challenging rewards
-
 # Cookie Run
 
 Cookie Run is a game designed to be easy to pick up and quick-paced. Gameplay consists of using the spacebar to propel the player through hoops to move forward and collect various delicious cookies. 
