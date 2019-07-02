@@ -50,51 +50,29 @@ Cookie Run is inspired by Flappy Bird and Super Mario Bros. Graphics, storyline,
 ## Implementation Timeline
 
 ### Day 1 
-  - MongoDB database setup - **all**
-  - Setup project skeleton - **all**
+  - Review games and canvas from curriculum
+  - Setup project skeleton
   
 ### Day 2
-  - Boards Feature
-    - Creating Boards - **John-Michael**
-      - Routes, backend fetches, actions, reducer, components, styling
-      - Board Validations
-    - Navbar - **John-Michael**
-      - components
-    - Updating Boards - **Jasmine John**
-      - Routes, backend testing
-    - Deleting Boards - **Jasmine John**    
-      - Routes, backend testing
-    - Viewing Boards - **Oliver Almalel**
-      - Routes, backend fetches, actions, reducer, components
-      - 'User' Get route, entities reducer, user [fetch, action, reducer]
+  - Complete board design and rendering
+  - Start player avatar rendering and functionality
 
 
 ### Day 3
-  - Testing - **ALL**
-  - Boards Feature
-    - Modals - **John-Michael Riley**
-      - actions, reducers, styling
-    - Navbar - **John-Michael Riley**
-      - components, styling, integration
-    - Updating/Deleting Boards - **Jasmine John**
-      - modal setup, actions, reducer 
-      - ui reducer
-    - Actions/Reducer optimizaiton - **Jasmine John**
-    - Viewing Boards - **Oliver Almalel**
-      - styling 
-    - Heroku Setup - **Oliver Almalel**
+  - Complete player avatar rendering and functionality
+  - Complete obstacle rendering and functionality
   
 
 ### Day 4
-  - Testing - **ALL**
-  - AWS Setup - **John-Michael Riley**
-    - Multer library integration
-  - Boards Feature - **Jasmine John**
-    - Finish Updating/Deleting boards
-      - components, styling, integration
-  - Pins Feature - **Oliver Almalel**
-    - Routes, Pin Validations
+  - Implement obstacle/player collision
+  - Complete "Game Over" logic and functionality
+  - Start scoreboard rendering
+
+
 ### Day 5
+  - Refine visuals
+  - Finish styling game page
+  - Finishing touches on any MVP's
 
 ### Day 6
 
