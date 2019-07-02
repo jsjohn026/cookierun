@@ -4,7 +4,7 @@ Cookie Run is a game designed to be easy to pick up and quick-paced. Gameplay co
 
 ## Background and Overview
 
-Although it is simple and repetitive, the game will vary in pace to give players a sense of confidence at the start and gradually increase difficulty. This is based on the psychological concept of "Flow" (introduced by positive psychologist Mihaly Csíkszentmihályi) where the right balance of challenge and skill results in an optimal experience so captivating that an individual loses track of time. 
+Although it is simple and repetitive, the game will vary in pace to give players a sense of confidence at the start and gradually increase difficulty. This is based on the psychological concept of "Flow" (introduced by positive psychologist Mihaly Csíkszentmihályi) where the level of challenge and skill are balanced in an "optimal experience" so captivating that an individual loses track of time. 
 
 Cookie Run is inspired by Flappy Bird and Super Mario Bros. Graphics, storyline, and music are designed to be bright, fun, and simple to evoke simultaneous feelings of joy and calmness. 
 
