@@ -1,0 +1,23 @@
+{
+  "name": "cookierun",
+  "version": "1.0.0",
+  "description": "Cookie Run is a game designed to be easy to pick up and quick-paced. Gameplay consists of using the spacebar to propel the player through hoops to move forward and collect various delicious cookies.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsjohn026/cookierun.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsjohn026/cookierun/issues"
+  },
+  "homepage": "https://github.com/jsjohn026/cookierun#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}

@@ -38,6 +38,8 @@ Cookie Run is inspired by Flappy Bird and Super Mario Bros. Graphics, storyline,
   ##### Vanilla Javascript
   ##### HTML5 Canvas
   ##### Webpack
+  ##### WebAudioAPI 
+  ##### Google Firebase
 
 ## Implementation Timeline
 
@@ -48,6 +50,7 @@ Cookie Run is inspired by Flappy Bird and Super Mario Bros. Graphics, storyline,
 ### Day 2
   - Complete board design and rendering
   - Start player avatar rendering and functionality
+  - Learn and begin WebAudioAPI
 
 
 ### Day 3
@@ -64,6 +67,7 @@ Cookie Run is inspired by Flappy Bird and Super Mario Bros. Graphics, storyline,
 ### Day 5
   - Refine visuals
   - Finish styling game page
+  - Add Audio and mute/stop options
   - Finishing touches on any MVP's
 
 ### Day 6
