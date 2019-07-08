@@ -1,5 +1,8 @@
 # Cookie Run
 
+
+[![](https://github.com/jsjohn026/cookierun/blob/master/assets/images/play.png)](https://github.com/jsjohn026/cookierun/blob/master/assets/images/play.png)
+
 Cookie Run is a game designed to be easy to pick up and quick-paced. Gameplay consists of using the right, left and up arrow to move the player around the screen and collect chocolate chip cookies. Missed cookies disintegrate the stones that keep the player from falling and drowning.
 
 ## Background and Overview
@@ -39,6 +42,10 @@ Cookie Run is inspired by Flappy Bird and Super Mario Bros. Graphics, storyline,
   ##### HTML5 Canvas
   ##### Webpack
   ##### WebAudioAPI 
+
+
+[![](https://github.com/jsjohn026/cookierun/blob/master/assets/images/restart.png)](https://github.com/jsjohn026/cookierun/blob/master/assets/images/restart.png)
+
 
 ## Implementation Timeline
 
