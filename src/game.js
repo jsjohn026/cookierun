@@ -57,12 +57,20 @@ background.onload = function() {
               tile.onload = function() {
                 seawater.onload = function() {
 
+                  ctx.drawImage(background, 0, 0, 700, 500);
+                  ctx.strokeStyle = "#FFFFFF";
+                  ctx.font = "30px Arial";
+                  ctx.strokeText("Click here to start playing Cookie Run!", 100, 250);
+
                   drawObject = function(object, x, y, width, height) {
                     ctx.drawImage(object, x, y, width, height);
                   }
 
                   document.getElementById("ctx").onmousedown = function() {
-                    
+                    if (!gameover) {
+                      clearInterval(intervalVar);
+                    }
+                    startGame();
                   }
 
                   document.onkeydown = function(event) {
@@ -155,13 +163,15 @@ background.onload = function() {
                   gameOver = function() {
                     ctx.save();
                     // ctx.globalAlpha = 0.6;
-                    
+                    for (var i = 0; i < tileList.length; i++) {
+                      drawObject(tile, tileList[i].x, tileList[i].y, tileObject.width, tileObject.height);
+                    }
                     drawObject(splash, 100, 10, 500, 450);
                     // ctx.globalAlpha = 1.0;
                     ctx.strokeStyle = "#FFFFFF";
                     ctx.font = "30px Arial";
-                    ctx.strokeText("Game Over", 290, 230);
-                    ctx.strokeText("Click to restart", 270, 275);
+                    ctx.strokeText("Game Over", 285, 225);
+                    ctx.strokeText("Click to restart", 265, 270);
                     ctx.restore();
                     clearInterval(intervalVar);
                   }
@@ -176,7 +186,7 @@ background.onload = function() {
                       cookieTimer = 0;
                     }
                     if (gameover) {
-                      drawObject(charlieThree, player.x, 465, 60, 35);
+                      drawObject(charlieThree, player.x, 440, 40, 60);
                       gameOver();
                     }
                     else if (player.inAir) {
@@ -263,8 +273,7 @@ background.onload = function() {
                     intervalVar = setInterval(updatePosition, 20);
 
                   }
-                  startGame();
-                  };
+                };
                 seawater.src = "assets/images/seawater.png";
               };
               tile.src = "assets/images/rocky02.png";
