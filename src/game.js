@@ -47,6 +47,24 @@ let player = {
   "safe": true
 };
 
+sound = function(src) {
+  this.sound = document.createElement("audio");
+  this.sound.src = src;
+  this.sound.setAttribute("preload", "auto");
+  this.sound.setAttribute("controls", "none");
+  this.sound.style.display = "none";
+  document.body.appendChild(this.sound);
+  this.play = function() {
+    this.sound.play();
+  }
+  this.stop = function() {
+    this.sound.pause();
+  }
+}
+
+let eatingSound = new sound("assets/sound/crunch.mp3");
+let fallingSound = new sound("assets/sound/fall.mp3");
+
 background.onload = function() {
   splash.onload = function() {
     charlieOne.onload = function() {
@@ -155,6 +173,7 @@ background.onload = function() {
                       player.x += player.speed;
                     }
                     if (player.y > 450) {
+                      fallingSound.play();
                       player.y = 450;
                       gameover = true;
                     }
@@ -211,6 +230,7 @@ background.onload = function() {
                     for (var i in cookieList) {
                       if (cookiePlayerCollision(cookieList[i])) {
                         score++;
+                        eatingSound.play();
                         if (score % 2 === 0) {
                           level --;
                         }
