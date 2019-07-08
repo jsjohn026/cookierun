@@ -314,7 +314,7 @@ background.onload = function() {
                         tileList.push({"x": i * 50, "y": 400})
                       }
 
-                      intervalVar = setInterval(updatePosition, 20);
+                      intervalVar = setInterval(updatePosition, 15);
 
                     }
                   };
