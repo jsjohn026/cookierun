@@ -6,6 +6,7 @@
 }
 
 body {
+  background: white;
   background: url('../images/cookie-stack-sketch.png');
   background-size: cover;
 }
