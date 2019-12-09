@@ -7,10 +7,9 @@
 
 body {
   background: white;
-  background: url('../images/cookie-stack-sketch.png');
+  /* background: url('../images/cookie-stack-sketch.png'); */
   background-size: cover;
   background-position: center bottom;
-  background-repeat: no-repeat;
 }
 
 .canvas-container {
