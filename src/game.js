@@ -324,7 +324,7 @@ background.onload = function() {
               };
               tile.src = "assets/images/rocky02.png";
             };
-            cookie.src = "assets/images/cookie.png";
+            cookie.src = "assets/images/cookie-sketch.png";
           };
           charlieFour.src = "assets/images/charlie/jump2.png";
         };
