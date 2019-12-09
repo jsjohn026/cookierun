@@ -10,3 +10,8 @@
   justify-content: center;
   align-items: center;
 }
+
+.game-footer {
+  font-family: "Ribeye Marrow";
+  color: darkblue;
+}
