@@ -3,13 +3,14 @@
   font-size: 32px;
   color: darkblue;
   font-style: italic;
+  justify-content: center;
 }
 
 body {
   background: white;
   background: url('../images/cookie-stack-sketch.png');
   background-size: cover;
-  background-position: center bottom;
+  background-position: center baseline;
 }
 
 .canvas-container {
