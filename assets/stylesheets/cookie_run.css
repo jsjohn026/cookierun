@@ -5,8 +5,11 @@
   color: darkblue;
   font-style: italic;
   justify-content: center;
-  background: rgba(255,255,255,0.7);
   text-align: center;
+}
+
+.content {
+  background: rgba(255,255,255,0.7);
 }
 
 body {
@@ -24,7 +27,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(255,255,255,0.7);
 }
 .game-instructions {
   padding: 10px;
@@ -35,14 +37,12 @@ body {
 }
 
 .game-footer {
-  position: absolute;
   bottom: 0;
   display: flex;
   font-family: "Ribeye Marrow";
   font-size: 22px;
   color: darkblue;
   justify-content: space-evenly;
-  background: rgba(255,255,255,0.7);
   width: 100%;
   align-items: center;
 }
