@@ -1,10 +1,11 @@
 .game-title {
   font-family: 'Ribeye Marrow';
   font-size: 22px;
-  color: darkcyan;
+  color: darkblue;
 }
 
 .canvas-container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
