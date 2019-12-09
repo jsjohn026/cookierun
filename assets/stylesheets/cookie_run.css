@@ -4,6 +4,8 @@
   color: darkblue;
   font-style: italic;
   justify-content: center;
+  background-color: whitesmoke;
+  background: rgba(255,255,255,0.5);
 }
 
 body {
@@ -25,4 +27,6 @@ body {
   font-size: 22px;
   color: darkblue;
   justify-content: space-evenly;
+  background-color: whitesmoke;
+  background: rgba(255,255,255,0.5);
 }
