@@ -12,6 +12,8 @@
 }
 
 .game-footer {
-  font-family: "Ribeye";
+  display: flex;
+  font-family: "Ribeye Marrow";
   color: darkblue;
+  justify-content: space-evenly;
 }
