@@ -1,5 +1,7 @@
 .game-title {
-
+  font-family: 'Ribeye Marrow';
+  font-size: 22px;
+  color: darkcyan;
 }
 
 .canvas-container {
