@@ -5,6 +5,11 @@
   font-style: italic;
 }
 
+body {
+  background: url('../images/cookie-stack-sketch.png');
+  background-size: cover;
+}
+
 .canvas-container {
   display: flex;
   justify-content: center;
