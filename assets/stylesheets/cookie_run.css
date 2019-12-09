@@ -11,14 +11,22 @@
 body {
   background: white;
   background: url('../images/cookie-stack-sketch.png');
-  background-size: cover;
+  background-size: auto;
   background-position: baseline;
 }
 
 .canvas-container {
+  margin-top: 50px;;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.game-instructions {
+  font-family: "Ribeye Marrow";
+  font-size: 22px;
+  color: darkblue;
+  justify-content: space-evenly;
 }
 
 .game-footer {
@@ -30,4 +38,6 @@ body {
   color: darkblue;
   justify-content: space-evenly;
   background: rgba(255,255,255,0.7);
+  width: 100%;
+  align-items: center;
 }
