@@ -82,11 +82,11 @@ background.onload = function() {
                     ctx.drawImage(background, 0, 0, 700, 500);
                     ctx.strokeStyle = "#FFFFFF";
                     ctx.font = "30px Arial";
-                    ctx.strokeText("Eat as many cookies as you can before they destroy you!", 100, 250);
+                    ctx.strokeText("Eat as many cookies as you can before they destroy you!", 100, 150);
                     ctx.strokeStyle = "#FFFFFF";
                     ctx.font = "30px Arial";
-                    ctx.strokeText("Use Space to pause and Arrow keys to move.", 100, 150);
-                    ctx.strokeText("Click here to start playing Cookie Run!", 100, 250);
+                    ctx.strokeText("Use Space to pause and Arrow keys to move.", 100, 250);
+                    ctx.strokeText("Click here to start playing Cookie Run!", 100, 350);
 
                     drawObject = function(object, x, y, width, height) {
                       ctx.drawImage(object, x, y, width, height);
