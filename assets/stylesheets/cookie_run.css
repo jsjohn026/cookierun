@@ -1,5 +1,5 @@
 .game-title {
-  margin-top: 25px;;
+  padding-top: 20px;;
   font-family: 'Ribeye Marrow';
   font-size: 32px;
   color: darkblue;
@@ -15,23 +15,24 @@
 body {
   background: white;
   background: url('../images/cookie-stack-sketch.png');
-  background-size: cover;
-  background-position: center;
+  background-size: auto;
+  background-position: bottom;
   background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 .canvas-container {
-  margin-top: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 .game-instructions {
-  padding: 10px;
+  padding-bottom: 20px;
   font-family: "Ribeye Marrow";
   font-size: 22px;
+  font-style: italic;
   color: darkblue;
   justify-content: space-evenly;
 }
