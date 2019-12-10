@@ -13,6 +13,7 @@
 }
 
 body {
+  padding: 40px;
   background: white;
   background: url('../images/cookie-stack-sketch.png');
   background-size: auto;
@@ -38,6 +39,7 @@ body {
 }
 
 .game-footer {
+  padding-bottom: 20px;
   bottom: 0;
   display: flex;
   font-family: "Ribeye Marrow";
